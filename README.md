@@ -6,15 +6,36 @@ The Rsesidential Land Map Management System is a Java-based desktop application 
 This project introduces a digital approach to residential land management by providing a map-based interface for viewing land plots and their statuses in one place. It aims to make land information easier to access, map updates more convenient, and the sales team's daily workflow more organized and efficient.
 The application was designed around the team's existing needs, with the goal of reducing dependence on printed maps and providing a clearer, more maintainable way to visualize land availability.
 
-![Behance](https://img.shields.io/badge/Version-V1.0.0-1769ff?style=for-the-badge&logo=&logoColor=white)
+### 📝 Project Objectives: 
+The primary objective of this project was to digitize the residential land map workflow and simplify the process of monitoring plot availability.
+The specific objectives were to:
+* Replace the repeated use of printed maps with a digital map interface.
+* Make residential land plots easier to identify and visualize.
+* Provide a clear way to distinguish plot statuses, such as available, reserved, and sold, where supported by the application.
+* Simplify the process of updating land status information.
+* Reduce reliance on paper-based tracking and manual markers.
+* Improve the organization and accessibility of residential land information.
+* Provide a foundation for future enhancements to land sales management.
 
-Build using [Java Swing libraries](https://docs.oracle.com/javase/7/docs/api/javax/swing/package-summary.html)
+### 📝 Technology Stack:
+The application was developed using Java as the primary programming language for desktop software development.
+Technologies and tools
+* Programming language: Java
+* User interface: JavaFX
+* Mapping approach: Pure FXML (Shapes)
+* Data storage: MySQl / SQLite
+* Development environment: Eclipse / Gluon Scene Builder
+* Version control: GitHub
+The technology choices were based on the application's desktop environment and the requirements of visualizing and managing residential land information.
+
+![Behance](https://img.shields.io/badge/Version-V1.0.0-1769ff?style=for-the-badge&logo=&logoColor=white)
 
 ### 🛠️ Languages and Tools :
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="60" height="60"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/eclipse/eclipse-original.svg" title="Eclipse" **alt="Eclipse" width="60" height="60"/>
 </div>
+Build using [Javafx libraries](https://docs.oracle.com/javase/8/javase-clienttechnologies.htm)
 
 ### Visuals:
 
