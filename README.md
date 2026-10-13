@@ -1,6 +1,8 @@
 # THE01-Rawasi-Map-Prototype
 The residential land map management system is a java-based desktop application developed to improve how land plots are visualized and tracked by the sales team.
 
+![Behance](https://img.shields.io/badge/Version-V1.0.0-1769ff?style=for-the-badge&logo=&logoColor=white)
+
 ### 📝 Overview: 
 The Rsesidential Land Map Management System is a Java-based desktop application developed to improve how residential land plots are visualized and tracked by the sales team. Previously, the team relied on printed maps and physical markers to identify lands that had been sold or reserved. As transactions occurred, the map had to be manually updated, and new copies were often printed to keep track of changes.
 This project introduces a digital approach to residential land management by providing a map-based interface for viewing land plots and their statuses in one place. It aims to make land information easier to access, map updates more convenient, and the sales team's daily workflow more organized and efficient.
@@ -27,8 +29,6 @@ Technologies and tools
 * Development environment: Eclipse / Gluon Scene Builder
 * Version control: GitHub
 The technology choices were based on the application's desktop environment and the requirements of visualizing and managing residential land information.
-
-![Behance](https://img.shields.io/badge/Version-V1.0.0-1769ff?style=for-the-badge&logo=&logoColor=white)
 
 ### 🛠️ Languages and Tools :
 <div>
