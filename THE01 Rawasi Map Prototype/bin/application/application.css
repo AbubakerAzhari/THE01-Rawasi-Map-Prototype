@@ -1,0 +1,105 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	-fx-background-color: #e0fcd5;
+}
+.button{	
+	-fx-background-color: #008b8b;
+	-fx-text-fill: #f8f8ff
+}
+#panLogin{
+	-fx-border-color: white;
+	-fx-border-width: 5.0; 
+}
+#panManageZoom{
+	-fx-border-color: brown;
+	-fx-border-width: 5; 	
+}
+#lblMainUsername{
+	-fx-background-color: beige ;
+	-fx-text-fill: black;
+}
+
+
+.claGreenArea{
+	-fx-fill: #28bf17;
+}
+.claLandCommerical{
+	-fx-fill: #fec007;
+}
+.claLandInitialBooking{
+	-fx-fill: #2195f2;
+}
+.claLandFinalBooking{
+	-fx-fill: #3e50b4;
+}
+.claLandSold{
+	-fx-fill: #f34236;
+}
+.claLandIsra{
+	-fx-fill: #009587;
+}
+.claServicesMall{
+	-fx-fill: #00bcd4;
+}
+.claServicesKidsGarden{
+	-fx-fill: #2195f2;
+}
+.claServicesSchool{
+	-fx-fill: #e91e63;
+}
+.claServicesMosque{
+	-fx-fill: #7a9135;
+}
+.claServicesFootball{
+	-fx-fill: #8bc34a;
+}
+.claServicesClub{
+	-fx-fill: #673ab7;
+}
+.claLandAvailable{
+	-fx-fill: #e0fcd5;
+}
+.claLandForCompany{
+	-fx-fill: sandybrown ;
+}
+
+
+.notification-bar>.pane{
+	-fx-background-color: #D5F0CB;
+	-fx-padding: 10 10 10 10;
+	-fx-background-insets: 1, 5, 10;
+}
+.notification-bar>.pane .title{
+	-fx-font-size: 16;
+	-fx-text-fill: #7F163D;
+	-fx-font-weight: bold;
+}
+.notification-bar>.pane .label{
+	-fx-font-size: 20;
+	-fx-text-fill: #7F163D;
+	-fx-font-weight: bold;
+	-fx-alignment: top-left;
+}
+.notification-bar>.pane .close-button{
+	-fx-background-color: transparent;
+	-fx-background-insets: 0;
+	-fx-background-radius: 0;
+	-fx-padding:  0 0 0 0;
+	-fx-alignment: center;
+}
+.notification-bar>.pane .close-button:hover{
+	-fx-background-color: linear-gradient(#a3a3a3,#8b8b8b 34%,#777777 36%, #777777 63%, #8b8b8b 65%, #adadad);
+}
+.notification-bar>.pane .close-button:pressed{
+	-fx-background-color: linear-gradient(#a3a3a3,#8b8b8b 34%,#777777 36%, #777777 63%, #8b8b8b 65%, #adadad);
+}
+.notification-bar>.pane .close-button>.graphic{
+	-fx-background-color: #fff;
+	-fx-scale-shape: false;
+    -fx-padding: 4.5 4.5 4.5 4.5;
+}
+.notification-bar>.pane .close-button:hover>.graphic{
+	-fx-background-color: red;
+}
+
+

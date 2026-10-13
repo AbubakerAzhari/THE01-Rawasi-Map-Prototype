@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="panBooking" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BookingController">
+   <children>
+      <AnchorPane prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #168101;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="TOP" prefHeight="17.0" prefWidth="200.0" style="-fx-text-fill: white; -fx-font-size: 18; -fx-font-weight: bold;" text="New Booking" textFill="#9e14e4" AnchorPane.leftAnchor="320.0" AnchorPane.topAnchor="5.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <GridPane hgap="5.0" vgap="5.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="60.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="130.0" minWidth="130.0" prefWidth="130.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="400.0" minWidth="400.0" prefWidth="400.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label prefHeight="25.0" prefWidth="113.0" style="-fx-text-fill: #7F163D; -fx-font-weight: bold; -fx-font-size: 16;" text="Booking Id" textFill="#ac05ff">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="113.0" style="-fx-text-fill: #7F163D; -fx-font-weight: bold; -fx-font-size: 16;" text="REF" textFill="#ac05ff" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="113.0" style="-fx-text-fill: #7F163D; -fx-font-weight: bold; -fx-font-size: 16;" text="Booking Date" textFill="#ac05ff" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="113.0" style="-fx-text-fill: #7F163D; -fx-font-weight: bold; -fx-font-size: 16;" text="Last Date" textFill="#ac05ff" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="113.0" style="-fx-text-fill: #7F163D; -fx-font-weight: bold; -fx-font-size: 16;" text="Customer" textFill="#ac05ff" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="113.0" style="-fx-text-fill: #7F163D; -fx-font-weight: bold; -fx-font-size: 16;" text="Block" textFill="#ac05ff" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="113.0" style="-fx-text-fill: #7F163D; -fx-font-weight: bold; -fx-font-size: 16;" text="Land No" textFill="#ac05ff" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="113.0" style="-fx-text-fill: #7F163D; -fx-font-weight: bold; -fx-font-size: 16;" text="Land Status" textFill="#ac05ff" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="113.0" style="-fx-text-fill: #7F163D; -fx-font-weight: bold; -fx-font-size: 16;" text="Currency" textFill="#ac05ff" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" style="-fx-text-fill: #7F163D; -fx-font-weight: bold; -fx-font-size: 16;" text="Currency Value" textFill="#ac05ff" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="113.0" style="-fx-text-fill: #7F163D; -fx-font-weight: bold; -fx-font-size: 16;" text="Metre Price" textFill="#ac05ff" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="113.0" style="-fx-text-fill: #7F163D; -fx-font-weight: bold; -fx-font-size: 16;" text="Total Price" textFill="#ac05ff" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="113.0" style="-fx-text-fill: #7F163D; -fx-font-weight: bold; -fx-font-size: 16;" text="Note" textFill="#ac05ff" GridPane.rowIndex="12">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtBooID" prefHeight="30.0" prefWidth="400.0" GridPane.columnIndex="1" />
+            <TextField fx:id="txtBooREF" prefHeight="30.0" prefWidth="400.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <DatePicker fx:id="picBooStartDate" prefHeight="30.0" prefWidth="400.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <DatePicker fx:id="picBooLastDate" prefHeight="30.0" prefWidth="400.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <ComboBox fx:id="comboxBooCustomer" onAction="#mthcomboxBooCustomer" prefHeight="30.0" prefWidth="400.0" promptText="Select Customer Name" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <ComboBox fx:id="comboxBooBlock" onAction="#mthcomboxBooBlock" prefHeight="30.0" prefWidth="400.0" promptText="Select Land Block" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <ComboBox fx:id="comboxBooLandNo" onAction="#mthcomboxBooLandNo" prefHeight="30.0" prefWidth="400.0" promptText="Select Land No" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <ComboBox fx:id="comboxBooStatus" onAction="#mthcomboxBooStatus" prefHeight="30.0" prefWidth="400.0" promptText="Select Land Status" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <ComboBox fx:id="comboxBooCurrency" onAction="#mthcomboxBooCurrency" prefHeight="30.0" prefWidth="400.0" promptText="Select Currency" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <TextField fx:id="txtBooCurrencyValue" prefHeight="30.0" prefWidth="400.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <TextField fx:id="txtBooMPrice" prefHeight="30.0" prefWidth="400.0" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            <TextField fx:id="txtBooTotalP" prefHeight="30.0" prefWidth="400.0" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+            <TextField fx:id="txtBooNote" onKeyPressed="#mthtxtBooNote" prefHeight="30.0" prefWidth="400.0" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+            <Label style="-fx-text-fill: #7F163D; -fx-font-weight: bold; -fx-font-size: 16;" text="SDG" textFill="#ac05ff" GridPane.columnIndex="2" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label style="-fx-text-fill: #7F163D; -fx-font-weight: bold; -fx-font-size: 16;" text="SDG" textFill="#ac05ff" GridPane.columnIndex="2" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label style="-fx-text-fill: #7F163D; -fx-font-weight: bold; -fx-font-size: 16;" text="SDG" textFill="#ac05ff" GridPane.columnIndex="2" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtBooArea" maxHeight="30.0" maxWidth="150.0" minHeight="30.0" minWidth="150.0" prefHeight="30.0" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Button fx:id="btnBooNewCustomer" alignment="TOP_CENTER" contentDisplay="CENTER" maxHeight="30.0" maxWidth="110.0" minHeight="30.0" minWidth="110.0" mnemonicParsing="false" onAction="#mthbtnBooOpenNewCustomer" prefHeight="30.0" prefWidth="110.0" style="-fx-background-color: #168101; -fx-text-fill: white; -fx-font-weight: bold;" text="New Customer" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </Button>
+         </children>
+      </GridPane>
+      <Button fx:id="btnBooInsertAddNew" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="66.0" layoutY="508.0" maxHeight="30.0" maxWidth="140.0" minHeight="30.0" minWidth="140.0" mnemonicParsing="false" onAction="#mthbtnBooInsertAddNew" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: #168101; -fx-text-fill: white;" text="Insert / Add New" textAlignment="CENTER" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="180.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnBooInsert" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="208.0" layoutY="508.0" maxHeight="30.0" maxWidth="130.0" minHeight="30.0" minWidth="130.0" mnemonicParsing="false" onAction="#mthbtnBooInsert" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: #168101; -fx-text-fill: white;" text="Insert" textAlignment="CENTER" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="340.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnBooCancel" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="326.0" layoutY="508.0" maxHeight="30.0" maxWidth="130.0" minHeight="30.0" minWidth="130.0" mnemonicParsing="false" onAction="#mthbtnBooCancel" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: #168101; -fx-text-fill: white;" text="Cancel" textAlignment="CENTER" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="490.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Pane layoutY="546.0" prefHeight="10.0" prefWidth="510.0" style="-fx-background-color: #168101; -fx-border-width: 5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+   </children>
+</AnchorPane>

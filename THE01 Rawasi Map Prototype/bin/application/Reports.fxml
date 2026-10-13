@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="870.0" style="-fx-background-color: #D5F0CB;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ReportsController">
+   <children>
+      <AnchorPane prefHeight="40.0" style="-fx-background-color: #168101;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label style="-fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 18;" text="General Report" textFill="#9e14e4" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="5.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ComboBox fx:id="cmxRepBlock" layoutX="11.0" layoutY="34.0" onAction="#mthcmxRepBlock" prefHeight="30.0" prefWidth="100.0" promptText="Block" AnchorPane.leftAnchor="140.0" AnchorPane.topAnchor="50.0" />
+      <ComboBox fx:id="cmxRepLand" layoutX="96.0" layoutY="34.0" onAction="#mthcmxRepLand" prefHeight="30.0" prefWidth="100.0" promptText="Land No" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="50.0" />
+      <ComboBox fx:id="cmxRepType" layoutX="193.0" layoutY="34.0" onAction="#mthcmxRepType" prefHeight="30.0" prefWidth="200.0" promptText="Type" AnchorPane.leftAnchor="360.0" AnchorPane.topAnchor="50.0" />
+      <ComboBox fx:id="cmxRepStatus" layoutX="346.0" layoutY="34.0" onAction="#mthcmxRepStatus" prefHeight="30.0" prefWidth="180.0" promptText="Status" AnchorPane.leftAnchor="570.0" AnchorPane.topAnchor="50.0" />
+      <Label style="-fx-text-fill: #7F163D; -fx-font-size: 16; -fx-font-weight: bold;" text="Customer name" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="90.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cmxRepName" layoutX="499.0" layoutY="34.0" onAction="#mthcmxRepName" prefHeight="30.0" prefWidth="350.0" promptText="Name" AnchorPane.leftAnchor="140.0" AnchorPane.topAnchor="90.0" />
+      <TextField fx:id="txtRepSearch" layoutX="685.0" layoutY="34.0" prefHeight="30.0" prefWidth="250.0" promptText="Enter Search" AnchorPane.leftAnchor="500.0" AnchorPane.topAnchor="90.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Button fx:id="btnRepClose" maxHeight="30.0" minHeight="30.0" mnemonicParsing="false" onAction="#mthbtnRepClose" prefHeight="30.0" style="-fx-background-color: #168101; -fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 14;" text="Close" AnchorPane.leftAnchor="760.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="90.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRepPrint" layoutX="10.0" layoutY="10.0" maxHeight="30.0" minHeight="30.0" mnemonicParsing="false" onAction="#mthbtnRepPrint" prefHeight="30.0" style="-fx-background-color: #168101; -fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 14;" text="Print" AnchorPane.leftAnchor="760.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="50.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tblRepLands" layoutX="10.0" layoutY="63.0" prefHeight="494.0" prefWidth="850.0" style="-fx-background-color: #D5F0CB;" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="130.0">
+        <columns>
+          <TableColumn fx:id="coltblRepLandsNo" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" text="Land No" />
+            <TableColumn fx:id="coltblRepLandsArea" maxWidth="80.0" minWidth="80.0" text="Area" />
+            <TableColumn fx:id="coltblRepLandsType" maxWidth="130.0" minWidth="130.0" prefWidth="130.0" text="Type" />
+            <TableColumn fx:id="coltblRepLandsStatus" minWidth="130.0" prefWidth="130.0" text="Status" />
+            <TableColumn fx:id="coltblRepLandsMPrice" prefWidth="95.0" text="Metre Price" />
+            <TableColumn fx:id="coltblRepLandsTotal" prefWidth="131.0" text="Total" />
+            <TableColumn fx:id="coltblRepLandsCustomer" maxWidth="300.0" minWidth="150.0" prefWidth="215.0" text="Customer" />
+        </columns>
+      </TableView>
+      <Pane layoutY="589.0" prefHeight="11.0" prefWidth="870.0" style="-fx-background-color: #168101;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Label layoutX="10.0" layoutY="10.0" style="-fx-text-fill: #7F163D; -fx-font-size: 16; -fx-font-weight: bold;" text="Search Lands By" AnchorPane.topAnchor="50.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
