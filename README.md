@@ -1,4 +1,4 @@
-# THE01-Rawasi-Map-Prototype
+# THE01-Rawasi-Map
 The residential land map management system is a java-based desktop application developed to improve how land plots are visualized and tracked by the sales team.
 
 ![Behance](https://img.shields.io/badge/Version-V1.0.0-1769ff?style=for-the-badge&logo=&logoColor=white)
